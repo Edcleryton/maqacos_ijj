@@ -1,2 +1,24 @@
 # maqacos_ijj
-Repositório criado para prática do uso do Git e GitHub, seguindo a atividade de criação de branches, escrita de códigos distintos e realização de merge. Cada participante adiciona seu próprio código em uma branch separada antes de integrar as alterações na branch principal.
+
+# Atividade em Squad 🚀
+
+Este repositório foi criado para a atividade em grupo no GitHub. Aqui, estamos praticando o uso de branches, commits e merges para colaborar em um projeto.
+
+## Estrutura do Projeto 📂
+
+- **src/**: Pasta onde ficará o código da atividade.
+- **README.md**: Documentação do projeto.
+
+## Participantes 👥
+
+- Annielle 💻
+- Michelle 💻
+- Daniel 💻
+
+## Objetivo 🎯
+
+Combinar trechos de código Python escritos por cada membro do grupo em um único arquivo, utilizando Git e GitHub.
+
+---
+
+🚀 Vamos começar!
