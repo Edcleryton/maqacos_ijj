@@ -4,13 +4,12 @@ altura = float(input("Digite sua altura em metros: "))
 idade = int(input("Digite sua idade: "))
 
 # Nova feature: Capturando notas
-nota1 = float(input("Digite a primeira nota: "))
-nota2 = float(input("Digite a segunda nota: "))
+nota1 = int(input("Digite a primeira nota: "))
+nota2 = int(input("Digite a segunda nota: "))
 soma = nota1 + nota2  # Somando as notas
 media = (nota1 + nota2) / 2 # Calculando a média
 
 #  identificando o tipo de dado das variavéis
-
 tipo_nome = type(nome)
 tipo_idade = type(idade) 
 tipo_altura = type(altura) 
