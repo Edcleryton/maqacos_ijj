@@ -5,4 +5,4 @@ number2 = 2434
 
 soma = number1 + number2
 
-print(f"A soma dos números é, {soma}")
+print(f"A soma dos números é {soma}")
