@@ -13,6 +13,6 @@ media_notas = (nota1 + nota2) / 2
 
 print(f"Sua media final foi de {media_notas}")
 
-print(f"Tipo de váriavel media_notas recebe: {type(media_notas)}")
-print(f"Tipo de váriavel nome recebe: {type(nome)}")
-print(f"Tipo de váriavel idade recebe: {type(idade)}")
+print(f"Tipo de variável media_notas recebe: {type(media_notas)}")
+print(f"Tipo de váriável nome recebe: {type(nome)}")
+print(f"Tipo de váriável idade recebe: {type(idade)}")
