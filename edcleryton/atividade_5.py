@@ -1,7 +1,7 @@
 print("Calculadora de Idade de Pet e Lucro do Petshop")
-nome_pet = input("Digite o nome do pet: ")
+nome_pet = input("Digite o nome do pet: ").capitalize()
 idade_humana = int(input("Digite a idade humana do pet (em anos): "))
-porte = input("Digite o porte do cachorro (grande, médio ou pequeno): ").capitalize()  # Alterado para capitalize()
+porte = input("Digite o porte do cachorro (grande, médio ou pequeno): ")
 numero_banhos = int(input("Digite o número de banhos nos últimos 12 meses: "))
 
 # Calcula a idade do pet em "anos de cachorro"
