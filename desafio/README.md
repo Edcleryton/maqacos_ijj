@@ -1,6 +1,6 @@
 # Desafios de Programacao Estilo Leetcode
 
-Este repositório contém as soluções para quatro problemas envolvendo operações funcionais em coleções, abordando:
+Este repositório contém as soluções para quatro desafios envolvendo operações funcionais em coleções, abordando:
 - Listas
 - Tuplas
 - Sets
