@@ -1,0 +1,110 @@
+1 - Filtragem e Transformação de Listas
+
+Descrição:
+
+Você recebe uma lista de números inteiros, numeros. Sua tarefa é realizar as seguintes operações na lista, sem usar loops explícitos (como for ou while):
+
+TODOs:
+Filtragem: Remova todos os números que não são pares.
+Transformação: Multiplique cada número restante por 2.
+Ordenação: Ordene a lista resultante em ordem decrescente.
+
+Input:
+
+Uma lista de números inteiros, numeros.
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+Output:
+
+Uma nova lista contendo os números pares originais, multiplicados por 2 e ordenados em ordem decrescente.
+
+Dicas:
+Use a função filter() para selecionar os números pares.
+Use a função map() para multiplicar cada número por 2.
+Use a função sorted() com o argumento reverse=True.
+==========================================================
+
+2 - Filtragem e Transformação de Tuplas (Strings e Inteiros)
+
+Descrição:
+
+Você recebe uma tupla contendo strings e números inteiros, `dados`. Sua tarefa é realizar as seguintes operações na tupla, 
+sem usar loops explícitos (como `for` ou `while`):
+
+TODOS:
+1. Filtragem: Remova todos os elementos que são números inteiros.
+2. Transformação: Converta todas as strings restantes para letras maiúsculas.
+3. Ordenação: Ordene a tupla resultante alfabeticamente (em ordem crescente).
+
+Input:
+
+Uma tupla contendo strings e números inteiros, `dados`.
+dados = ("maçã", 10, "banana", 5, "laranja", "uva", 20)
+
+Output:
+
+Uma nova tupla contendo apenas as strings originais (convertidas para maiúsculas) ordenadas alfabeticamente.
+
+
+
+Dicas:
+
+* Use a função `filter()` com a função `isinstance()` para selecionar apenas as strings.
+* Use o método `upper()` para converter as strings para maiúsculas dentro da função `map()`.
+* Use a função `sorted()` para ordenar a tupla resultante alfabeticamente.
+
+==========================================================
+
+3 - Filtragem e Transformação de Sets
+
+Descrição:
+
+Você recebe um conjunto de strings, palavras. Sua tarefa é realizar as seguintes operações no conjunto, sem usar loops explícitos (como for ou while):
+
+TODOs:
+Filtragem: Remova todas as palavras que não começam com a letra "a" (maiúscula ou minúscula).
+Transformação: Converta todas as palavras restantes para letras maiúsculas.
+Ordenação: Ordene o conjunto resultante alfabeticamente.
+
+Input:
+
+Um conjunto de strings, palavras.
+palavras = {"banana", "Abacate", "pera", "Amora", "uva", "aveia"}
+
+Output:
+
+Um novo conjunto contendo as palavras originais que começam com "a" (maiúscula ou minúscula), convertidas para maiúsculas e ordenadas alfabeticamente.
+
+Dicas:
+
+Use a função filter() com uma função lambda para selecionar as palavras que começam com "a" (maiúscula ou minúscula).
+Use a função map() com o método upper() para converter as palavras para maiúsculas.
+Use a função sorted() para ordenar o conjunto resultante alfabeticamente.
+Lembre-se de converter o resultado final de volta para um conjunto set()
+
+==========================================================
+4 - Filtragem e Transformação de Valores de Dicionário
+
+Descrição:
+
+Você recebe um dicionário, dicionario, onde as chaves são strings e os valores podem ser de diferentes tipos. Sua tarefa é realizar as seguintes operações nos valores do dicionário, sem usar loops explícitos (como for ou while):
+
+Filtragem: Selecione apenas os valores que são strings e têm um comprimento maior que 3 caracteres.
+Transformação: Converta todas as strings selecionadas para letras minúsculas.
+Ordenação: Ordene a lista resultante de strings alfabeticamente.
+
+Input:
+
+Um dicionário, dicionario, onde as chaves são strings e os valores podem ser de diferentes tipos.
+dicionario = {"a": 10, "b": "banana", "c": "abacaxi", "d": 5, "e": "uva", "f": "melancia"}
+
+Output:
+
+Uma lista contendo as strings originais (com comprimento maior que 3), convertidas para minúsculas e ordenadas alfabeticamente.
+
+Dicas:
+
+Use o método dicionario.values() 
+Use a função filter() com isinstance()
+Use a função map() com o método lower()
+Use a função sorted() 
