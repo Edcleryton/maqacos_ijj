@@ -7,14 +7,14 @@ TODOs
 - Ordenamos com `sorted(..., reverse=True)`.
 
 2 - Filtragem e Transformação de Tuplas (Strings e Inteiros)
-- Criamos função `eh_string` para filtrar apenas strings.
-- Criamos `para_maiuscula()` para aplicar `str.upper()`.
-- Ordenamos com `sorted()` e transformamos em tupla.
+- Utilizamos `filter()` com uma **função `lambda`** que verifica se o elemento é uma `string` (`isinstance(x, str)`).
+- Em seguida, aplicamos `map()` com a função embutida `str.upper` para transformar as strings em letras maiúsculas.
+- Ordenamos o resultado com `sorted()` e transformamos a lista final em uma `tuple`.
 
 3 - Filtragem e Transformação de Sets
-- Função `comeca_com_a()` verifica se a palavra inicia com "a" (ignorando maiúsculas/minúsculas).
-- Função `para_maiuscula_str()` converte para maiúsculas.
-- Resultado final é um set ordenado.
+- Aplicamos `filter()` com uma **função `lambda`** para selecionar apenas as palavras que começam com a letra "a" ou "A" (`x.lower().startswith("a")`).
+- Utilizamos `map()` com `str.upper` para transformar as palavras em maiúsculas.
+- O conjunto resultante foi ordenado com `sorted()` e transformado de volta em um `set`.
 
 4 - Filtragem e Transformação de Valores de Dicionário
 - Extraímos os valores com `dicionario.values()`.
