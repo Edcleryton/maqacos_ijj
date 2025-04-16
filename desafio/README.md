@@ -6,7 +6,7 @@ Este repositório contém as soluções para quatro desafios envolvendo operaç�
 - Sets
 - Dicionários
 
-As soluções usam `filter()`, `map()` e `sorted()`, com funções simples definidas com `def`, sem `for`, `while` ou `lambda`, seguindo a proposta didática para alunos iniciantes.
+As soluções usam `filter()`, `map()` e `sorted()`, com funções simples definidas com `def`, sem `for` e `while`, seguindo a proposta do desafio.
 
 ## Arquivos
 - `desafio.py`: Contém a implementação completa de todos os desafios.
