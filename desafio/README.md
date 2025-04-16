@@ -1,4 +1,4 @@
-# Desafios de Programacao Estilo Leetcode
+# Desafios de Programação Estilo Leetcode
 
 Este repositório contém as soluções para quatro desafios envolvendo operações funcionais em coleções, abordando:
 - Listas
