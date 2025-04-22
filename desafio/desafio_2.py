@@ -1,5 +1,4 @@
 #Filtragem e Transformação de Listas
-
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # Filtragem: Selecionar apenas números pares
@@ -84,22 +83,6 @@ for valor in sorted(valores_minusculos):
     resultado.append(valor)
 
 print("Solução 4:", resultado)  # Saída: ['abacaxi', 'banana', 'melancia']
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
