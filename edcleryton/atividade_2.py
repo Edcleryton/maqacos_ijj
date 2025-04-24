@@ -9,7 +9,7 @@ mensagem = f"Olá, {nome}. Em {mes} você realizou uma compra no valor de R${val
 print(mensagem)
 
 #RESPOSTA COMPLETA
-# Entrada de dados corrigida
+# Entrada de dados do cliente
 customer_name = input("Digite o nome do cliente: ")
 month = input("Digite o mês da compra: ")
 purchase_value = float(input("Digite o valor da compra: "))
