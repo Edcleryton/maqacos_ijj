@@ -1,25 +1,32 @@
-#Filtragem e Transformação de Listas
+# 1 - Filtragem e Transformação de Listas
+# Função para filtrar pares e multiplicar por 2
+def filtrar_e_transformar(numeros):
+    numeros_pares = []
+    for numero in numeros:
+        if numero % 2 == 0:
+            numeros_pares.append(numero)
+
+    numeros_multiplicados = []
+    for numero in numeros_pares:
+        numeros_multiplicados.append(numero * 2)
+
+    return numeros_multiplicados
+
+# Função para ordenar e exibir o resultado
+def ordenar_e_exibir(lista):
+    resultado = []
+    for numero in sorted(lista, reverse=True):
+        resultado.append(numero)
+    print("Solução 1:", resultado)
+
+
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# Filtragem: Selecionar apenas números pares
-numeros_pares = []
-for numero in numeros:
-    if numero % 2 == 0:
-        numeros_pares.append(numero)
+transformados = filtrar_e_transformar(numeros)
+ordenar_e_exibir(transformados)
 
-# Transformação: Multiplicar cada número por 2
-numeros_multiplicados = []
-for numero in numeros_pares:
-    numeros_multiplicados.append(numero * 2)
 
-# Ordenação: Ordenar em ordem decrescente
-resultado = []
-for numero in sorted(numeros_multiplicados, reverse=True):
-    resultado.append(numero)
-
-print("Solução 1:", resultado)  # Saída: [20, 16, 12, 8, 4]
-
-#Filtragem e Transformação de Tuplas (Strings e Inteiros)
+# 2 - Filtragem e Transformação de Tuplas (Strings e Inteiros)
 dados = ("maçã", 10, "banana", 5, "laranja", "uva", 20)
 
 # Filtragem: Remover números inteiros
